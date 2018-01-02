@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBubbleBg">#1f1f20</color>
+    <color name="colorBubble">#c5c5c5</color>
+    <color name="colorTagBg">#f5f5f5</color>
+    <color name="colorTag">#999</color>
+    <color name="colorRecyclerViewBg">#3d3c3c</color>
+    <color name="text_Grey">#a7a7a7</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorTitle">#1f1f20</color>
+</resources>
