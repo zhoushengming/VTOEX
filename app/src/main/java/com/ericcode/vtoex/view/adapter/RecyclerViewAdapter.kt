@@ -39,7 +39,11 @@ class RecyclerViewAdapter(val weakReference: WeakReference<Activity>) : Recycler
                 tvContent.text = title
                 tvNode.textInVisible = node?.name
                 tvUser.textInVisible = member?.username
-                tvTimeLoss.textInVisible = last_modified?.lossTimeCN
+                if (last_modified != null) {
+                    tvTimeLoss.textInVisible = (last_modified * 1000).lossTimeCN
+                } else {
+                    tvTimeLoss.visibility = View.INVISIBLE
+                }
                 tvLatestCommit.textInVisible = null
                 tvCommitNumber.textInVisible = replies?.toString()
                 rlRoot.setOnClickListener {

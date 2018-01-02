@@ -2,6 +2,9 @@ package com.ericcode.vtoex.extention
 
 import android.view.View
 import android.widget.TextView
+import com.ericcode.vtoex.util.Logger
+import java.text.DateFormat
+import java.text.SimpleDateFormat
 import java.util.*
 
 
